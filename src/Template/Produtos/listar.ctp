@@ -24,10 +24,11 @@
             ?>
             <tr>
                 <th><input type="radio" name="produtoSelecionado" value="<?php echo  $row->codigo ?>">Código</th>
+                <th><?php echo $row->codigo;?></th>
                 <th><?php echo $row->descricao;?></th>
-                <th>Saldo</th>
-                <th>Preço</th>
-                <th>Ativo</th>
+                <th><?php echo $row->saldo;?></th>
+                <th><?php echo $row->preco;?></th>
+                <th><input type="checkbox" " value="<?php echo $row->ativo?>"></th>
             </tr>
             <?php
         }
