@@ -38,8 +38,7 @@ class ProdutosController extends AppController
         $this->render();         
     }
 
-
-    
+  
     public function cadastrar()
     {   
 

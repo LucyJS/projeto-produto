@@ -25,7 +25,7 @@ function excluirProdutoSelecionado(){
         return;
     }
 
-    if(confirm("Deseja excluir?")){
+    if(confirm("Deseja realmente excluir o Produto  " + produtoSelecionado + "?" )){
     
         // fazer uma requisição ajax no servidor para chamar o controler/action produtos/deletar-produto
         var urlExclusao = "/produtos/deletar-produto/" + produtoSelecionado;
