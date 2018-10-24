@@ -1,0 +1,28 @@
+
+
+.modal{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.modal-header {
+    background: #FFF;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+.modal-content{
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    border: 1px solid #000;
+    z-index: 999;
+    background: #FFF;
+    padding: 10px;
+    text-align: left;
+}
